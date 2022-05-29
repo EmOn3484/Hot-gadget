@@ -1,0 +1,109 @@
+.container{
+    margin-bottom: 60px;
+   }
+   /* --------------------- crousel-area start ------------------ */
+    .orange-bg{
+       background-color: #fceae8;
+       border-radius: 10px; 
+    }
+    .carousel-item{
+        padding: 20px 40px;
+    }
+    /* --------------------- crousel-area End ------------------ */
+
+
+    /* --------------------- button-area start ------------------ */
+    .Buy{
+        color: white;
+        border: 1px solid white;
+        padding: 9px 25px;
+        cursor: pointer;
+        background-color: blue;
+        box-shadow: blue gold;
+        transition: .3s;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+     }
+     .Buy:hover{
+        border: 1px solid green;
+        color:black;
+        background-color: green;
+    }
+    .Buy-now{
+        color: black;
+        border: 1px solid white;
+        padding: 9px 25px;
+        cursor: pointer;
+        background-color: greenyellow;
+        box-shadow: blue gold;
+        transition: .3s;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;  
+    }
+    .Buy-now:hover{
+        border: 1px solid green;
+        color:black;
+        background-color: green;
+    }
+      /* --------------------- button-area End ------------------ */
+
+
+        /* --------------------- card-area start ------------------ */
+    .card{
+        border: 2px;
+        box-shadow: 5px 5px 10px lightgrey;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .card:hover{
+        transform: translateY(-10px);
+        transition: .10s ease-in-out;
+    }
+    .card img{
+        width: 200px;
+    }
+      /* --------------------- card-area End ------------------ */
+
+
+   /* --------------------- categories-area Start ------------------ */
+   
+    .categories h3::before{
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 100px;
+        background-image: linear-gradient(to right, #FFC51E 0%, #FF9C35 100%);
+        bottom: -35%;
+        left: 46%;
+        border-radius: 20px;
+    }
+    .cat-box-1, .cat-box-2 ,.cat-box-3 {
+        width: 200px;
+        height: 220px;
+        box-shadow: 5px 5px 15px blue;
+        transition: .5s;
+    }
+    .cat-box-1:hover, .cat-box-2:hover, .cat-box-3:hover {
+        transform: translateY(-10px);
+        transition: .10s ease-in-out;
+    }
+    .cat-box-1{
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-box-2 ,.cat-box-3 {
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .categories h3{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    /* --------------------- categories-area End ------------------ */
+    h4,h5{
+        color: red;
+    }
+    
+
+
+   
